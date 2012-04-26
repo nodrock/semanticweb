@@ -1,0 +1,62 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cz.muni.fi.jfresnel.jena</groupId>
+    <artifactId>semanticweb</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>semanticweb</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  
+    <repositories>
+        <repository>
+            <id>nodrock</id>
+            <url>http://62.197.207.102:8080/nexus-2.0/content/repositories/nodrock</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+	  <groupId>de.fuberlin.wiwiss</groupId>
+	  <artifactId>ng4j</artifactId>
+	  <version>0.9.3</version>
+	</dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.hpl.jena</groupId>
+            <artifactId>jena</artifactId>
+            <version>2.6.4</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.hp.hpl.jena</groupId>
+            <artifactId>arq</artifactId>
+            <version>2.8.7</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.inria.jfresnel.sparql</groupId>
+            <artifactId>jfresnel-sparql-core</artifactId>
+            <version>0.3.3-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
+      <dependency>
+        <groupId>fr.inria.jfresnel.sparql.jena</groupId>
+        <artifactId>jfresnel-sparql-jena</artifactId>
+        <version>0.3.3-SNAPSHOT</version>
+        <type>jar</type>
+      </dependency>
+    </dependencies>
+</project>

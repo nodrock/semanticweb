@@ -1,10 +1,3 @@
-/*   AUTHOR : The-Nhan LUONG (The-Nhan.LUONG@inria.fr)
- *
- *  (c) COPYRIGHT INRIA (Institut National de Recherche en Informatique et en Automatique), 2005-2006.
- *  Licensed under the GNU LGPL. For full terms see the file COPYING.
- *
- * $Id: SPARQLJenaEvaluator.java 59 2007-11-22 16:41:17Z luong $
- */
 package cz.muni.fi.jfresnel.jena.semanticweb;
 
 import java.util.*;
@@ -23,6 +16,11 @@ import fr.inria.jfresnel.sparql.*;
 import fr.inria.jfresnel.sparql.jena.SPARQLJenaEvaluator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+/**
+ * Modified SPARQLJenaEvaluator which is able to work with Semantic Web Client.
+ * @author nodrock
+ */
 
 public class SPARQLJenaSemWebClientEvaluator extends SPARQLJenaEvaluator implements RDFErrorHandler {
     private static final Logger logger = Logger.getLogger(SPARQLJenaSemWebClientEvaluator.class.getName());

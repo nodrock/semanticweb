@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package cz.muni.fi.jfresnel.jena.semanticweb;
 
 import com.hp.hpl.jena.graph.Graph;
@@ -22,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *
+ * Implementation of Jena Graph interface for working with SPARQL endpoint.
  * @author nodrock
  */
 public class SPARQLEndpointGraph extends GraphBase implements Graph {
